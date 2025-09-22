@@ -1,0 +1,69 @@
+# Dossiers de données
+data/
+datasets/
+*.csv
+*.json
+*.npz
+*.h5
+*.zip
+*.tar.gz
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# --- Packages / Dependencies ---
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Logs / Debug ---
+*.log
+logs/
+debug.log
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Data / Cache ---
+*.db
+*.sqlite3
+*.pkl
+*.h5
+*.ckpt
+*.npz
+*.npy
+
+# --- PyTorch / TensorFlow cache ---
+*.pth
+*.pt
+*.onnx
+checkpoint/
+runs/
+
+# --- Others ---
+__MACOSX/
